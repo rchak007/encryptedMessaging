@@ -20,9 +20,139 @@ Welcome to Relay, a decentralized messaging dApp built on the Solana blockchain.
 
 ## Use Cases
 
-- **Anonymous Communication**: Relay allows for secure and anonymous communication, protecting user identity.
-- **Resistant to Censorship**: Messages cannot be blocked or censored by any central authority.
-- **Data Integrity**: Ensures that the message data remains unchanged and secure.
+**Anonymous Communication**: Relay allows for secure and anonymous communication, protecting user identity.
+
+**Resistant to Censorship**: Messages cannot be blocked or censored by any central authority.
+
+**Data Integrity**: Ensures that the message data remains unchanged and secure.
+
+# 
+
+# Current Application Web design
+
+
+
+## Landing Page
+
+
+
+![image-20251124164707686](Images/image-20251124164707686.png)
+
+
+
+
+
+
+
+
+
+## Create Your Own Key Pairs
+
+Clicking on "Create Your own Key Pairs" gives your own Public and Private keys. 
+
+Each user must generate a keypair (public key + private key) using TweetNaCl. After generating their keys, both users exchange their **public keys** with each other.
+
+> *Only public keys are shared. Private keys must remain secret.*
+
+
+
+![image-20251124164805105](Images/image-20251124164805105.png)
+
+
+
+
+
+## Relay App
+
+Click on relay to go to Chat app 
+
+![image-20251124164956039](Images/image-20251124164956039.png)
+
+
+
+## Connect Wallet
+
+Currently shows all messages on teh Smart contract but in future it can show only your messages. All encrypted messages will have a Decrypt button to decrypt.
+
+![image-20251124165103533](Images/image-20251124165103533.png)
+
+
+
+
+
+## Send Secret Message
+
+Address - can be anything
+
+Message - Secret message to encrypt
+
+Recipient Public Key -  Other users public key with whom you want to message secretly.
+
+Your private key - 
+
+Your public Key
+
+
+
+![image-20251124165257490](Images/image-20251124165257490.png)
+
+
+
+Example - 
+
+![image-20251126163103563](Images/image-20251126163103563.png)
+
+
+
+After submitting you see on the Chat relay;
+
+![image-20251126163126722](Images/image-20251126163126722.png)
+
+
+
+## Check Txn on Solana Blockchain Explorer
+
+https://explorer.solana.com/address/5ZeMSd6ot2FPBBAt1s4hF3ffKAjNvp1LvFNT62FPqQCi?cluster=devnet
+
+![image-20251126163234780](Images/image-20251126163234780.png)
+
+
+
+
+
+![image-20251126163255760](Images/image-20251126163255760.png)
+
+
+
+
+
+## Recipient Viewing the message
+
+
+
+### Decrypt
+
+![image-20251126163328115](Images/image-20251126163328115.png)
+
+
+
+
+
+
+
+![image-20251126163355918](Images/image-20251126163355918.png)
+
+
+
+
+
+
+
+
+
+# Application Detail
+
+
 
 ## Technology Stack
 

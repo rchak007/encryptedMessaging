@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import nacl from 'tweetnacl';
 import naclUtil from 'tweetnacl-util';
