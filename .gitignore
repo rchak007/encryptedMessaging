@@ -46,3 +46,15 @@ anchor/target/.rustc_info.json
 !anchor/target/types/*.ts
 test-ledger
 .yarn
+
+secret.env
+
+**/*keypair.json
+
+
+.env
+.env.*
+anchor/devnet-wallet.json
+privReadme.md
+-v
+anchor/target/sbpf-solana-solana/

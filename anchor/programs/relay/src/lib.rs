@@ -5,7 +5,7 @@ use anchor_lang::prelude::*;
 // declare_id!("DBPA83yqVRDspVi2sXGWPQbFR4AwuBpFZY79GyKHb53N");
 // declare_id!("KBScsXsbBp8cTgzkML8bFRvoYb5E3fRGpxxsaU4hzRz");
 // declare_id!("DjbBmWi8WzYCDnFG8AMMnNErqHa3W6e39gkdQxN8Hkwf");
-declare_id!("5ZeMSd6ot2FPBBAt1s4hF3ffKAjNvp1LvFNT62FPqQCi");
+declare_id!("74sJMY922tbcPNrATAaNuLUPLkkF5HgMMCY3kp85pcSL");
 
 
 #[program]
