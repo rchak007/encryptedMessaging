@@ -6,10 +6,13 @@ export default function DashboardFeature() {
     <>
       <HomeTiles />
 
+      {/* Middle section for chat (if wallet connected) */}
+      {/* Example placeholder: */}
       <div className="text-center text-lg my-10">
-        <p>Connect your wallet to start chatting securely.</p>
+        <p>🔓 Connect your wallet to start chatting securely.</p>
       </div>
 
+      {/* Bottom: optional local encryption setup */}
       <KeyPairGenerator />
     </>
   );
